@@ -103,6 +103,6 @@
         android:layout_marginBottom="70dp"
         android:text="Crear producto"
         android:textColor="@color/white"
-        app:backgroundTint="@color/green" />
+        app:backgroundTint="@color/bluecc" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

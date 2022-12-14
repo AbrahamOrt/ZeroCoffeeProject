@@ -40,7 +40,7 @@
             android:layout_marginTop="30dp"
             android:text="MONTO A PAGAR EN Pesos"
             android:textAlignment="center"
-            android:textColor="@color/green"
+            android:textColor="@color/bluecc"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -61,7 +61,7 @@
             android:layout_marginTop="30dp"
             android:text="TOTAL EN USD"
             android:textAlignment="center"
-            android:textColor="@color/green"
+            android:textColor="@color/bluecc"
             android:textSize="18sp"
             android:textStyle="bold" />
 

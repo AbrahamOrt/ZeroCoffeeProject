@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:492520889524:android:368a92821ebe92c3ae8be1",
         "android_client_info": {
-          "package_name": "com.optic.deliverykotlinudemy"
+          "package_name": "com.zerosystems.zerocoffee"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "492520889524-ienpourn9l2tsr0l952kuhr2ilp4pk08.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.optic.deliverykotlinudemy",
+            "package_name": "com.zerosystems.zerocoffee",
             "certificate_hash": "c4fa2587154d59abc7f2b75729f47cbd0a6df9b6"
           }
         },
