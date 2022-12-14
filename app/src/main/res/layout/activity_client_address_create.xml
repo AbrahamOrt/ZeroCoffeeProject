@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/EditTextGeneral"
-            android:hint="Barrio"
+            android:hint="Aula"
             android:layout_marginTop="10dp"
             android:inputType="text" />
 
