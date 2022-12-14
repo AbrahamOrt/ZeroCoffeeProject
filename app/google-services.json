@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "696107893483",
-    "project_id": "kotlindelivery",
-    "storage_bucket": "kotlindelivery.appspot.com"
+    "project_number": "692794080821",
+    "project_id": "zerocoffeeproject",
+    "storage_bucket": "zerocoffeeproject.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:696107893483:android:46e089547152dbf99d74ae",
+        "mobilesdk_app_id": "1:692794080821:android:050f3d3ad24c796e61fb7c",
         "android_client_info": {
           "package_name": "com.optic.deliverykotlinudemy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "696107893483-rkpici1nfciepdeebch2r1f6ofbg79hr.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.optic.deliverykotlinudemy",
-            "certificate_hash": "75456fe498b5292c6439d4f1407b8c869b9292c9"
-          }
-        },
-        {
-          "client_id": "696107893483-pq4kaoqlig61navednm1vk96ngr71a9b.apps.googleusercontent.com",
+          "client_id": "692794080821-ptrults3m1cvo9gerhflg91nmm967fbe.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDtnSMrsb-MfwZ87gF6Irqp66CrRATxNW4"
+          "current_key": "AIzaSyDeEk5iNSFAxGTvGRCHkrifTuo9tN-RrkU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "696107893483-pq4kaoqlig61navednm1vk96ngr71a9b.apps.googleusercontent.com",
+              "client_id": "692794080821-ptrults3m1cvo9gerhflg91nmm967fbe.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
