@@ -65,7 +65,7 @@ class ClientProductsDetailActivity : AppCompatActivity() {
 
         textViewName?.text = product?.name
         textViewDescription?.text = product?.description
-        textViewPrice?.text = "${product?.price} Soles"
+        textViewPrice?.text = "${product?.price} Pesos"
 
         imageViewAdd?.setOnClickListener { addItem() }
         imageViewRemove?.setOnClickListener { removeItem() }
@@ -102,7 +102,7 @@ class ClientProductsDetailActivity : AppCompatActivity() {
                 product?.quantity = selectedProducts[index].quantity
                 textViewCounter?.text = "${product?.quantity}"
                 productPrice = product?.price!! * product?.quantity!!
-                textViewPrice?.text = "${productPrice} Soles"
+                textViewPrice?.text = "${productPrice} Pesos"
                 buttonAdd?.setText("Editar producto")
                 buttonAdd?.backgroundTintList = ColorStateList.valueOf(Color.RED)
             }
@@ -133,7 +133,7 @@ class ClientProductsDetailActivity : AppCompatActivity() {
         productPrice = product?.price!! * counter
         product?.quantity = counter
         textViewCounter?.text = "${product?.quantity}"
-        textViewPrice?.text = "${productPrice} Soles"
+        textViewPrice?.text = "${productPrice} Pesos"
     }
 
     private fun removeItem() {
@@ -142,7 +142,7 @@ class ClientProductsDetailActivity : AppCompatActivity() {
             productPrice = product?.price!! * counter
             product?.quantity = counter
             textViewCounter?.text = "${product?.quantity}"
-            textViewPrice?.text = "${productPrice} Soles"
+            textViewPrice?.text = "${productPrice} Pesos"
         }
     }
 }

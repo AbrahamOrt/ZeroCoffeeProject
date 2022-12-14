@@ -213,7 +213,7 @@ class ClientPaymentsPaypalFormActivity : AppCompatActivity() {
                 total = total + (p.price * p.quantity!!)
             }
 
-            textViewAmount?.text = "${total} Soles"
+            textViewAmount?.text = "${total} Pesos"
         }
 
     }

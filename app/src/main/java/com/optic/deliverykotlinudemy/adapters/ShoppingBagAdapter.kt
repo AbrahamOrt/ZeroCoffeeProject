@@ -47,7 +47,7 @@ class ShoppingBagAdapter(val context: Activity, val products: ArrayList<Product>
         holder.textViewCounter.text = "${product.quantity}"
 
         if (product.quantity != null) {
-            holder.textViewPrice.text = "${product.price * product.quantity!!}Soles"
+            holder.textViewPrice.text = "${product.price * product.quantity!!}Pesos"
         }
         Glide.with(context).load(product.image1).into(holder.imageViewProduct)
 
@@ -95,7 +95,7 @@ class ShoppingBagAdapter(val context: Activity, val products: ArrayList<Product>
         products[index].quantity = product.quantity
 
         holder.textViewCounter.text = "${product.quantity}"
-        holder.textViewPrice.text = "${product.quantity!! * product.price} Soles"
+        holder.textViewPrice.text = "${product.quantity!! * product.price} Pesos"
 
         sharedPref.save("order", products)
         (context as ClientShoppingBagActivity).setTotal(getTotal())
@@ -110,7 +110,7 @@ class ShoppingBagAdapter(val context: Activity, val products: ArrayList<Product>
             products[index].quantity = product.quantity
 
             holder.textViewCounter.text = "${product.quantity}"
-            holder.textViewPrice.text = "${product.quantity!! * product.price} Soles"
+            holder.textViewPrice.text = "${product.quantity!! * product.price} Pesos"
 
             sharedPref.save("order", products)
             (context as ClientShoppingBagActivity).setTotal(getTotal())

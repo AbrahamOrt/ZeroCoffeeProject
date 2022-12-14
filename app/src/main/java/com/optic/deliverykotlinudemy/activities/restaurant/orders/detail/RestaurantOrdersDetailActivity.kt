@@ -201,7 +201,7 @@ class RestaurantOrdersDetailActivity : AppCompatActivity() {
         for (p in order?.products!!) {
             total = total + (p.price * p.quantity!!)
         }
-        textViewTotal?.text = "${total} Soles"
+        textViewTotal?.text = "${total} Pesos"
 
     }
 }

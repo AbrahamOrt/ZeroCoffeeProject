@@ -211,7 +211,7 @@ class ClientPaymentsInstallmentsActivity : AppCompatActivity() {
                 total = total + (p.price * p.quantity!!)
             }
 
-            textViewTotal?.text = "${total} Soles"
+            textViewTotal?.text = "${total} Pesos"
         }
 
     }
