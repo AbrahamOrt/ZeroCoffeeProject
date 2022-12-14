@@ -5,7 +5,7 @@ import retrofit2.Retrofit
 
 class ApiRoutes {
 
-    val API_URL = "http://192.168.56.1:3000/api/"
+    val API_URL = "https://zerocoffeeproject.herokuapp.com/api/"
     val retrofit = RetrofitClient()
 
     fun getUsersRoutes(): UsersRoutes {
